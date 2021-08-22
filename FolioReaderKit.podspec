@@ -1,20 +1,19 @@
 Pod::Spec.new do |s|
-  s.name             = "FolioReaderKit"
-  s.version          = "1.4.0"
+  s.name             = "FolioReaderKit-swift"
+  s.version          = "2.0"
   s.summary          = "A Swift ePub reader and parser framework for iOS."
   s.description  = <<-DESC
                    Written in Swift.
                    The Best Open Source ePub Reader.
                    DESC
-  s.homepage         = "https://github.com/FolioReader/FolioReaderKit"
-  s.screenshots     = "https://raw.githubusercontent.com/FolioReader/FolioReaderKit/assets/custom-fonts.gif", "https://raw.githubusercontent.com/FolioReader/FolioReaderKit/assets/highlight.gif"
+  s.homepage         = "https://github.com/sam961/FolioReaderKit"
   s.license          = 'BSD'
-  s.author           = { "Heberti Almeida" => "hebertialmeida@gmail.com" }
-  s.source           = { :git => "https://github.com/FolioReader/FolioReaderKit.git", :tag => s.version.to_s }
-  s.social_media_url = 'https://twitter.com/hebertialmeida'
+  s.author           = { "Salam El kadri" => "sam.961@live.com" }
+  s.source           = { :git => "https://github.com/sam961/FolioReaderKit.git", :tag => s.version.to_s }
 
-  s.swift_version = '4.2'
-  s.platform      = :ios, '9.0'
+
+  s.swift_version = '5'
+  s.platform      = :ios, '12.0'
   s.requires_arc  = true
 
   s.source_files = [
